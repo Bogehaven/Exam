@@ -39,7 +39,7 @@ The desire for this data was to implement the visualization as an interactive ma
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/XzlF7jF"><a href="//imgur.com/a/XzlF7jF"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-After countless attempts of embedding this album, it did not seem to wanna play ball, so i hope this link will do.
+After countless attempts of embedding this album properly, it did not seem to wanna play ball, so i will add this link as an alternative:
 
 <a href="https://imgur.com/a/XzlF7jF">https://imgur.com/a/XzlF7jF</a>
 
@@ -54,14 +54,7 @@ To further explore the trends occuring throughout time, the views for each Youtu
 <iframe src="https://flo.uri.sh/visualisation/2544331/embed" width="1200" height="900" frameborder="0"><script src="https://public.flourish.studio/resources/embed.js"></script></iframe>
 
 
-Besides from this advantage and being visually pleasing (or kinda silly), it can be too distracting for the user to actually gaining a meaningful insight. Since we have data that is constantly moving, and no precise way of choosing a point in time, it becomes difficult to see this deployed in a professional setting. A more reliable, but certainly not as eye catching, choice would be to either visualize the same data though an interactive dashboard as such:
-
-
-
-
-
-
-Or create a stacked bar chart.
+Besides from this advantage and being visually pleasing (or kinda silly), it can be too distracting for the user to actually gaining a meaningful insight. Since we have data that is constantly moving, and no precise way of choosing a point in time, it becomes difficult to see this deployed in a professional setting. A more reliable, but certainly not as eye catching, choice would be to either visualize the same data though an interactive dashboard, or create a stacked bar chart.
 
 The remaining data that seemed viable options for creating good visualizations was the Google Assistant data, and the Search History data. 
 
@@ -73,7 +66,7 @@ Given the logging of my conversations with Google Assistant, each command was ca
 
 ### Seach Queries
 
-Finally we have the youtube search history. To filter out stop words, the TF-IDF score was calculated for all words and ranked accordingly. The visualization of choice for this data was the treemap. It provides a good overview of the data and is easier to compare than the packed bubbles presented previously. To amplify the differences between the importance of words, the score was used to determine both the area used and the opacity of the color. I chose to visualize the top 50 words for each temporal range, but arguably this could be reduced to reduce clutter, seing as the values with the lowest TF-iDF scores in the visualization does not have any significant vairance associated with them.
+Finally we have the youtube search history. To filter out stop words, the TF-IDF score was calculated for all words and ranked accordingly. The visualization of choice for this data was the treemap. It provides a good overview of the data and is easier to compare than the packed bubbles presented previously. I chose to visualize the top 50 words for each temporal range, but arguably this could be reduced to reduce clutter, seing as the values with the lowest TF-iDF scores in the visualization does not have any significant vairance associated with them. One visualization decision i could not get to work in flourish, was to use a sequential coloring scheme and adjust the opacity according to the TF-IDF score. This would help amplify the differences between the importance of words. Furthermore, for future improvements, these words could also be categorized and colored accordingly.
 
 <iframe src="https://flo.uri.sh/story/367595/embed" width="1200" height="900" frameborder="0"></iframe>
 
@@ -94,3 +87,6 @@ Deciding on which ways to visualize the data deemed to be an iterative procress.
 
 ### Appendix
 
+Somehwat questionable proofs of iphone/android switch.
+
+![](proofz.png)
