@@ -6,7 +6,7 @@ description: "Data Visualization Exam: 2020"
 
 # Introduction
 
-Data Visualization is an extremely powerful tool that enables an impactful way to convey messages to the reader. As someone who studies Data Science, who gets overly excited about watching a number approach one, i have found it difficult to convey exactly why that is to friends and family, however after converting this endless stream of numbers into a visually pleasing representation, it becomes much more interpretable for the average person.
+Data Visualization is an extremely powerful tool that enables to convey messages to the reader that are memorable and impactful. As someone who studies Data Science, who gets overly excited about watching a number approach one, i have found it difficult to convey exactly why that is to friends and family, however after converting this endless stream of numbers into a visually pleasing representation, it becomes much more interpretable for the average person.
 
 While this tool can be incredibly valuable to shed some light on difficult topics, it can also easily be abused to convey messages that are favorable for the publisher, either by creating misleading visualizations and thus distracting the consumer from valuable insight, or by creating factually wrong representations of the data. Data Visualizations are often taken at face value by the general public but it is vital to always be skeptical when introduced to a new visualization. In this paper i attempt to keep the transparency as high as possible and with various visualization theories learned from the course in mind.
 
