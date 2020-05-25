@@ -31,9 +31,7 @@ Furthermore splitting the data into types of logging, we see the main source of 
 
 > Note: you may have to log into your account associated with the Data Visualization 2020 Tableau Online group.
 
-
-
-<script type='text/javascript' src='https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1920px; height: 894px;'><object class='tableauViz' width='1920' height='894' style='display:none;'><param name='host_url' value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;datavisualisationanddatadrivendecisionmakingspring2020' /><param name='name' value='Logging_v3&#47;Dashboard2&#47;hjbo@itu.dk&#47;Public' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
+<iframe src="https://eu-west-1a.online.tableau.com/t/datavisualisationanddatadrivendecisionmakingspring2020/views/Logging_v3/Dashboard2/hjbo@itu.dk/Public?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link?:embed=yes" width="1200" height="900" frameborder="0"></iframe>
 
 <br />
 
