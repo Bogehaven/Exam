@@ -31,6 +31,8 @@ Exploring the data, we see the first logs appear on May 2nd 2013 and continue un
 
 Given the temporal aspect of the data, various visualizations was made where this extra dimension was utilized. From the location data, a map was visualized to both show general trends, and trends over time. The choice of a simple map was based on keeping the attention on the data, and not to the surroundings. A consequence of this choice is that a certain amount of knowledge about Copenhagen is required to get full value from the visualization, however, based on my knowledge on the target audince of this graph, it felt like the appropriate choice. 
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/XzlF7jF" width="1000"><a href="//imgur.com/a/XzlF7jF"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 After countless attempts of embedding this album, it did not seem to wanna play ball, so i hope this link will do.
 
 <a href="https://imgur.com/a/XzlF7jF">https://imgur.com/a/XzlF7jF</a>
@@ -75,4 +77,3 @@ In conclusion i have not utilized the Google Suite very productively.
 
 ### Appendix
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/XzlF7jF"><a href="//imgur.com/a/XzlF7jF"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
