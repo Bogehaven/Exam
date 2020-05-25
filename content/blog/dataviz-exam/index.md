@@ -4,13 +4,15 @@ date: "2020-05-25T22:12:03.284Z"
 description: "Data Visualization Exam: 2020"
 ---
 
-# Introduction
+# Getting to Know Myself Through my Google Data
+
+> Page may have to be reloaded if some visualizations are formatted incorrectly or does not show at all. If any of the visualizations have trouble rendering, links are included in the project PDF.
+
+## Introduction
 
 Data Visualization is an extremely powerful tool that enables to convey messages to the reader that are memorable and impactful. As someone who studies Data Science, who gets overly excited about watching a number approach one, i have found it difficult to convey exactly why that is to friends and family, however after converting this endless stream of numbers into a visually pleasing representation, it becomes much more interpretable for the average person.
 
 While this tool can be incredibly valuable to shed some light on difficult topics, it can also easily be abused to convey messages that are favorable for the publisher, either by creating misleading visualizations and thus distracting the consumer from valuable insight, or by creating factually wrong representations of the data. Data Visualizations are often taken at face value by the general public but it is vital to always be skeptical when introduced to a new visualization. In this paper i attempt to keep the transparency as high as possible and with various visualization theories learned from the course in mind.
-
-If any of the visualizations have trouble rendering, links are included in the project PDF.
 
 ## Data
 The data chosen from this project was my Google data downloaded via Google's Takeout tool. This data included location history, search history, Youtube videos watched, Youtube videos commented, Youtube subscriptions, purchases through the Google store, Google Assistant conversations, amongst others. I do realize this choice of data is a lot more interesting to me than it is to you, but i hope you can still enjoy the visualizations they enabled.
@@ -76,22 +78,22 @@ Finally we have the Youtube search history. To filter out stop words, the TF-IDF
 
 <iframe src="https://flo.uri.sh/story/367595/embed" width="1200" height="900" frameborder="0"></iframe>
 
-### Conclusion
+## Conclusion
 
 Deciding on which ways to visualize the data deemed to be an iterative process. Considering what you are trying to accomplish with the visualizations and what aspects you want to include was reconsidered constantly throughout the project. While the extraction and cleaning of data is vital, the considerations for the data visualizations should be considered to an equal extend. If any conclusion was to be made from the data visualizations, the main realization i made was that i have not utilized my Google Suite very productively.
 
-### Resources
+## Resources
 
-#### Color Scheme
+### Color Scheme
 
 ![](ColorScheme.png)
 
-#### Tools
+### Tools
 
 ![](tools.png)
 
 
-### Appendix
+## Appendix
 
 Somehwat questionable proofs of iphone/android switch.
 
