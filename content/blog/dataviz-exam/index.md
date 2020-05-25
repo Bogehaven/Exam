@@ -37,7 +37,7 @@ Given the temporal aspect of the data, various visualizations was made where thi
 
 The desire for this data was to implement the visualization as an interactive map. The main advantage being that these visualizations are rarely clouded by the bias of the visualization creator, as the user can freely navigate around and choose a desired scope for the data. While this does not ensure the data to be completely transparrent, it is a step in the right direction.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/XzlF7jF" width="1200" height="900"><a href="//imgur.com/a/XzlF7jF"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<div width="1200" height="900"><blockquote class="imgur-embed-pub" lang="en" data-id="a/XzlF7jF" width="1200" height="900"><a href="//imgur.com/a/XzlF7jF"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></div>
 
 After countless attempts of embedding this album, it did not seem to wanna play ball, so i hope this link will do.
 
@@ -83,8 +83,11 @@ Deciding on which ways to visualize the data deemed to be an iterative procress.
 
 ### Resources
 
+#### Color Scheme
+
 ![](ColorScheme.png)
 
+#### Tools
 
 ![](tools.png)
 
