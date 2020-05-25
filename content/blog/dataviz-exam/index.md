@@ -47,7 +47,7 @@ Given the temporal aspect of the data, various visualizations was made where thi
 
 The desireable usecase for the location data was to implement the visualization as an interactive map. The main advantage being that these visualizations are rarely clouded by the bias of the visualization creator, as the user can freely navigate around and choose to view the data from any desired scope. While this does not ensure the data to be completely transparent, it is a step in the right direction.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/XzlF7jF"><a href="//imgur.com/a/XzlF7jF"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<div style='position: relative' width='938px' height='627px'><blockquote class="imgur-embed-pub" lang="en" data-id="a/XzlF7jF"><a href="//imgur.com/a/XzlF7jF"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8" width = ></script></div>
 
 After countless attempts of embedding this album properly, it did not seem to wanna play ball, so i will add this link as an alternative:
 
