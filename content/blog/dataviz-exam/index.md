@@ -21,7 +21,7 @@ The data arrived in two formats; either as a JSON or HTML file. Extracting the r
 
 Exploring the data, we see the first logs appear on May 2nd 2013 and continue until now. Plotting this graph we first see a spike around the period i purchased an Android phone, and a drop when i purchased an iPhone. Furthermore splitting the data into types of logging, we see the main source of logging with an android phone was from tracking location. 
 
-<iframe src="https://eu-west-1a.online.tableau.com/t/datavisualisationanddatadrivendecisionmakingspring2020/views/Logging/Dashboard2/hjbo@itu.dk/Public?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link&:embed=yes" width="1000" height="827" frameborder="0"></iframe>
+<iframe src="https://eu-west-1a.online.tableau.com/t/datavisualisationanddatadrivendecisionmakingspring2020/views/Logging_v3/Dashboard2/hjbo@itu.dk/Public?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link&:embed=yes" width="1000" height="827" frameborder="0"></iframe>
 
 <iframe src="https://flo.uri.sh/visualisation/2546372/embed" width="1200" height="900" frameborder="0"></iframe>
 
