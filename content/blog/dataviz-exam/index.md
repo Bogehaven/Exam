@@ -8,7 +8,9 @@ description: "Data Visualization Exam: 2020"
 
 Data Visualization is an extremely powerful tool that enables an impactful way to convey messages to the reader. As someone who studies Data Science, who gets overly excited about watching a number approach one, i have found it difficult to convey exactly why that is to friends and family, however after converting this endless stream of numbers into a visually pleasing representation, it becomes much more interpretable for the average person.
 
-While this tool can be incredibly valuable to shed some light on difficult topics, it can also easily be abused to convey messages that are favorable for the publisher, either by creating misleading visualizations and thus discrating the consumer from valuable insight, or by creating factually wrong representations of the data. Data Visualizations are often taken at face value by the general public but it is vital to always be skeptical when introduced to a new visulization. In this paper i attempt to keep transparancy as high as possible with various visualization theories learned from the course in mind.
+While this tool can be incredibly valuable to shed some light on difficult topics, it can also easily be abused to convey messages that are favorable for the publisher, either by creating misleading visualizations and thus discrating the consumer from valuable insight, or by creating factually wrong representations of the data. Data Visualizations are often taken at face value by the general public but it is vital to always be skeptical when introduced to a new visulization. In this paper i attempt to keep the transparancy as high as possible and with various visualization theories learned from the course in mind.
+
+If any of the visualizations have trouble rendering, links are included in the project PDF.
 
 ## Data
 The data chosen from this project was my Google data downloaded via Google's Takeout tool. This data included location history, search history, youtube videos watched, youtube videos commented, youtube subscriptions, purchases through the Google store, Google Assistant conversations, amongst others. I do realize this choice of data is a lot more interesting to me than it is to you, but i hope you can still enjoy the visualizations they enabled.
@@ -21,7 +23,11 @@ The data arrived in two formats; either as a JSON or HTML file. Extracting the r
 
 ### Overview of Logs
 
-Exploring the data, we see the first logs appear on May 2nd 2013 and continue until now. Plotting this graph we first see a spike around the period i purchased an Android phone, and a drop when i purchased an iPhone. Furthermore splitting the data into types of logging, we see the main source of logging with an android phone was from tracking location. I chose to group the values by month as it seemed like a good balance between functionality and simplicity. Three fields was created so that the data could be further divided into categories, and also filter out the dominating values so the trends in the remainding categories can be observed as well.
+Exploring the data, we see the first logs appear on May 2nd 2013 and continue until now. The first noticable aspect of this graph when plotted is the spile occuring between september 2017 and june 2018. Backtracking to find the root cause, i realized i acquired an android phone in this period of time. As this is not based on "hard evidence" it would not be ideal to use in a professional setting, but given the circumstances, i found it appropriate, and interesting enough to include.
+
+Furthermore splitting the data into types of logging, we see the main source of logging with an android phone was from tracking location. I chose to group the values by month as it seemed like a good balance between functionality and simplicity. Three fields was created so that the data could be further divided into categories, and also filter out the dominating values so the trends in the remainding categories can be observed as well.
+
+> Note: you may have to log into your account associated with the Data Visualization 2020 Tableau Online group.
 
 <iframe src="https://eu-west-1a.online.tableau.com/t/datavisualisationanddatadrivendecisionmakingspring2020/views/Logging_v3/Dashboard2/hjbo@itu.dk/Public?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link&:embed=yes" width="1000" height="827" frameborder="0"></iframe>
 
@@ -33,9 +39,9 @@ Continuing with the same data, a cumulative sum was created as well to get furth
 ### Location History
 
 
-Given the temporal aspect of the data, various visualizations was made where this extra dimension was utilized. From the location data, a map was visualized to both show general trends, and trends over time. The choice of a simple map was based on keeping the attention on the data, and not to the surroundings. A consequence of this choice is that a certain amount of knowledge about Copenhagen is required to get full value from the visualization, however, based on my knowledge on the target audince of this graph, it felt like the appropriate choice. 
+Given the temporal aspect of the data, various visualizations was made where this extra dimension was utilized. From the location data, a map was visualized to both show general trends in movement, and trends over time. The choice of a simple map was based on keeping the attention on the data, and not to the surroundings. A consequence of this choice is that a certain amount of knowledge about Copenhagen is required to get full value from the visualization, however, based on my knowledge on the target audince of this visualization, it felt like an appropriate choice. 
 
-The desire for this data was to implement the visualization as an interactive map. The main advantage being that these visualizations are rarely clouded by the bias of the visualization creator, as the user can freely navigate around and choose a desired scope for the data. While this does not ensure the data to be completely transparrent, it is a step in the right direction.
+The desireable usecase for the location data was to implement the visualization as an interactive map. The main advantage being that these visualizations are rarely clouded by the bias of the visualization creator, as the user can freely navigate around and choose to view the data from any desired scope. While this does not ensure the data to be completely transparrent, it is a step in the right direction.
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/XzlF7jF"><a href="//imgur.com/a/XzlF7jF"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
@@ -45,7 +51,7 @@ After countless attempts of embedding this album properly, it did not seem to wa
 
 ### Youtube
 
-To further explore the trends occuring throughout time, the views for each Youtube channel was visualized through a racing bar chart. This chart type has the advantage of utilizing the extra time dimension, and due to the fast moving pace of the graph, it has potential to attract the attention of the reader compared to other choices. 
+To further explore the trends occuring throughout time, the views for each Youtube channel was visualized through a racing bar chart. This chart type has the advantage of utilizing the extra time dimension, and due to the fast moving pace of the graph, it has potential to attract the attention of the reader compared to other choices. It packs a lot of information, and being interactive, it allows the user to pause and observe the values at any given time. 
 
 <iframe src="https://flo.uri.sh/visualisation/2544074/embed" width="1200" height="900" frameborder="0"></iframe>
 
@@ -54,7 +60,7 @@ To further explore the trends occuring throughout time, the views for each Youtu
 <iframe src="https://flo.uri.sh/visualisation/2544331/embed" width="1200" height="900" frameborder="0"><script src="https://public.flourish.studio/resources/embed.js"></script></iframe>
 
 
-Besides from this advantage and being visually pleasing (or kinda silly), it can be too distracting for the user to actually gaining a meaningful insight. Since we have data that is constantly moving, and no precise way of choosing a point in time, it becomes difficult to see this deployed in a professional setting. A more reliable, but certainly not as eye catching, choice would be to either visualize the same data though an interactive dashboard, or create a stacked bar chart.
+Besides from this advantage and being visually pleasing (or kinda silly), it can be too distracting for the user to actually gaining a meaningful insight. Since we have data that is constantly moving, and no precise way of choosing a point in time, it becomes difficult to see this deployed in a professional setting. Furthermore, to smooth out the animation, Flourish fills the nan values by interpolating to the next available value, which leads to untruthful representations if the user desires to get exact values pausing on a given timestamp. A more reliable, but certainly not as eye catching, choice would be to either visualize the same data though an interactive dashboard with temporal and filtering options, or create a stacked bar chart.
 
 The remaining data that seemed viable options for creating good visualizations was the Google Assistant data, and the Search History data. 
 
@@ -89,4 +95,8 @@ Deciding on which ways to visualize the data deemed to be an iterative procress.
 
 Somehwat questionable proofs of iphone/android switch.
 
-![](proofz.png)
+![](prof1.png)
+
+---
+
+![](prof2.png)
