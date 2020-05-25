@@ -95,7 +95,7 @@ Deciding on which ways to visualize the data deemed to be an iterative process. 
 
 ## Appendix
 
-Somehwat questionable proofs of iphone/android switch.
+Somewhat questionable proofs of iPhone/Android switch.
 
 ![](prof1.png)
 
