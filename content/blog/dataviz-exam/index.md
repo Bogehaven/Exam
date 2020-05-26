@@ -78,7 +78,7 @@ Given the logging of my conversations with Google Assistant, each command was ca
 
 Finally we have the Youtube search history. To filter out stop words, the TF-IDF score was calculated for all words and ranked accordingly. The visualization of choice for this data was the treemap. It provides a good overview of the data and is easier to compare than the packed bubbles presented previously. I chose to visualize the top 50 words for each temporal range, but arguably this could be reduced to reduce clutter, seeing as the values with the lowest TF-iDF scores in the visualization does not have any significant variance associated with them. One visualization decision i could not get to work in flourish, was to use a sequential coloring scheme and adjust the opacity according to the TF-IDF score. This would help amplify the differences between the importance of words. Furthermore, for future improvements, these words could also be categorized and colored accordingly.
 
-<iframe src="https://flo.uri.sh/story/367595/embed" width="1200" height="900" frameborder="0"></iframe>
+<iframe src="https://flo.uri.sh/story/367595/embed" width="1200" height="1200" frameborder="0"></iframe>
 
 ## Conclusion
 
